@@ -1,0 +1,16 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+version: "2.4"
+services:
+  ${artifactId}:
+    container_name: ${artifactId}
+    build: ./
+    image: jdk8:${artifactId}
+    ports:
+      - 16969:6969
+    volumes:
+      - /root/${artifactId}/upload:/root/${artifactId}/upload
+      - /root/${artifactId}/logs:/work/project/logs
+    command: java -jar ${artifactId}.jar
+    restart: always
