@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0472869-8a94-4643-8edd-2b71dcb89c9d" name="Changes" comment="添加idea配置">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/enumhandle/EnumConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/CaptchacodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/CaptchacodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/HttpUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/MultipleItemsUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/PasswordGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/PasswordGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-web/src/main/java/config/WebConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-web/src/main/java/config/WebConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-web/src/main/java/handler/ResponseWrapUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-web/src/main/java/handler/ResponseWrapUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,52 +63,6 @@
   }
 }</component>
   <component name="RunManager" selected="Maven.发布到本地仓库">
-    <configuration name="发布到本地仓库" type="MavenRunConfiguration" factoryName="Maven" singleton="false">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings">
-          <MavenRunnerSettings>
-            <option name="delegateBuildToMaven" value="false" />
-            <option name="environmentProperties">
-              <map />
-            </option>
-            <option name="jreName" value="1.8" />
-            <option name="mavenProperties">
-              <map />
-            </option>
-            <option name="passParentEnv" value="true" />
-            <option name="runMavenInBackground" value="true" />
-            <option name="skipTests" value="false" />
-            <option name="vmOptions" value="" />
-          </MavenRunnerSettings>
-        </option>
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="cmdOptions" />
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="clean" />
-                <option value="install" />
-                <option value="archetype:crawl" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="projectsCmdOptionValues">
-              <list />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
     <configuration name="从本地仓库删除" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -178,7 +142,10 @@
       <workItem from="1691984885400" duration="491000" />
       <workItem from="1691992726725" duration="1109000" />
       <workItem from="1691999858531" duration="113000" />
-      <workItem from="1692166215492" duration="1168000" />
+      <workItem from="1692166215492" duration="1341000" />
+      <workItem from="1692168424020" duration="48000" />
+      <workItem from="1692171317524" duration="382000" />
+      <workItem from="1692177521856" duration="1182000" />
     </task>
     <task id="LOCAL-00001" summary="添加idea配置">
       <option name="closed" value="true" />
@@ -188,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691985361919</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加idea配置">
+      <option name="closed" value="true" />
+      <created>1692167395240</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692167395240</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

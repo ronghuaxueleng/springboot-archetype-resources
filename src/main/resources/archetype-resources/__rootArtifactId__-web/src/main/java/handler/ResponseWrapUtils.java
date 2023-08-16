@@ -3,7 +3,7 @@
 #set( $symbol_escape = '\' )
 package ${package}.handler;
 
-import com.alibaba.fastjson.JSON;
+import io.github.ronghuaxueleng.util.JSONUtils;
 import ${package}.vo.RestResponse;
 
 /**
@@ -20,7 +20,7 @@ public class ResponseWrapUtils {
       RestResponse restResponse = new RestResponse();
       restResponse.setData(data);
       if (data instanceof String) {
-        return JSON.toJSONString(restResponse);
+        return JSONUtils.toJSONString(restResponse);
       }
       return restResponse;
     }

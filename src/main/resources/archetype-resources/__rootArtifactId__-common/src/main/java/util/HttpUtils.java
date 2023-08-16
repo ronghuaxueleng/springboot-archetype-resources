@@ -3,7 +3,6 @@
 #set( $symbol_escape = '\' )
 package ${package}.util;
 
-import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 
@@ -18,9 +17,6 @@ import java.util.zip.GZIPInputStream;
 
 /**
  * http工具类
- *
- * @author Ye Feng
- * @date 2020/2/18 17:23
  */
 @Slf4j
 public class HttpUtils {
@@ -54,7 +50,7 @@ public class HttpUtils {
     String res = httpGet(urlStr, null);
     if (res != null) {
       if (!isStringResult) {
-        return JSONObject.parseObject(res, Object.class);
+        return JSONUtils.parseObject(res, Object.class);
       }
       return res;
     }

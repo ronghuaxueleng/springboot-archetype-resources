@@ -15,13 +15,12 @@
 
 ## 特点
 
-* 基于 Spring Boot 2.2.2.RELEASE的多模块项目
+* 基于 Spring Boot 2.7.14的多模块项目
 * 提供全局异常捕获、跨域访问、对返回数据进行封装等功能
 * 提供 Maven Profile 和 Spring Profile 完美融合的解决方案
 * 支持docker部署
 * 集成MyBatis、PageHelper
 * 支持多数据源配置
-* 使用FastJson替换Jackson进行JSON解析
 * 支持出入参、持久化时枚举类型的转换
 
 ## 运行
@@ -37,7 +36,7 @@ mvn clean install
 从本地仓库删除
 
 ```
-mvn dependency:purge-local-repository -DmanualInclude="com.jzdata:springboot-archetype"
+mvn dependency:purge-local-repository -DmanualInclude="io.github.ronghuaxueleng:springboot-archetype"
 ```
 
 
@@ -70,7 +69,7 @@ mvn archetype:crawl
 
 
 ```shell
-mvn archetype:generate -DarchetypeGroupId=com.jzdata -DarchetypeArtifactId=springboot-archetype -DinteractiveMode=false -DarchetypeCatalog=local -DgroupId=com.test -DartifactId=test -Dversion=${version} -Dpackage=com.test
+mvn archetype:generate -DarchetypeGroupId=io.github.ronghuaxueleng -DarchetypeArtifactId=springboot-archetype -DinteractiveMode=false -DarchetypeCatalog=local -DgroupId=com.test -DartifactId=test -Dversion=${version} -Dpackage=com.test
 ```
 
 #### 方法二：交互方式
@@ -85,7 +84,7 @@ mvn archetype:generate -DarchetypeCatalog=local
 
 ```shell
 Choose archetype:
-1: local -> com.jzdata:springboot-archetype (springboot)
+1: local -> io.github.ronghuaxueleng:springboot-archetype (springboot)
 2: local -> org.apache.maven.archetypes:maven-archetype-quickstart (quickstart)
 Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 2:
 ```
@@ -103,10 +102,6 @@ Choose a number or apply filter (format: [groupId:]artifactId, case sensitive co
 ![image-20200529144054857](image/image-20200529144054857.png)
 
 
-
-**第三步：填写项目基本信息**![image-20200529144520114](image/image-20200529144520114.png)
-
-![image-20200529144628649](image/image-20200529144628649.png)
 
 完成以上的步骤之后，项目就创建完成了，项目结构如下：
 

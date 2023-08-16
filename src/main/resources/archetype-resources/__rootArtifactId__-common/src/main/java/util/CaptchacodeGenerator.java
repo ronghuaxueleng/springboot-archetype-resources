@@ -11,8 +11,6 @@ import java.util.Random;
 
 /**
  * 验证码工具类
- * @author Ye Feng
- * @date 2020/2/11 21:07
  */
 public class CaptchacodeGenerator {
   /**

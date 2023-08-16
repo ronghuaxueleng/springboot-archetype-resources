@@ -5,8 +5,6 @@ package ${package}.util;
 
 /**
  * 产生随机密码
- * @author Ye Feng
- * @date 2020/2/7 12:07
  */
 public class PasswordGenerator {
   /**
