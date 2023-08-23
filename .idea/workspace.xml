@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e0472869-8a94-4643-8edd-2b71dcb89c9d" name="Changes" comment="添加idea配置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/HttpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/JSONUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/JSONUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-web/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-web/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +139,7 @@
       <workItem from="1692168424020" duration="48000" />
       <workItem from="1692171317524" duration="382000" />
       <workItem from="1692177521856" duration="1182000" />
+      <workItem from="1692784545757" duration="106000" />
     </task>
     <task id="LOCAL-00001" summary="添加idea配置">
       <option name="closed" value="true" />

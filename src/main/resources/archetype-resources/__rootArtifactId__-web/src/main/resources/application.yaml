@@ -7,9 +7,6 @@ spring:
   ${symbol_pound}出现错误时, 直接抛出异常
   mvc:
     throw-exception-if-no-handler-found: true
-  ${symbol_pound}不要为我们工程中的资源文件建立映射
-  resources:
-    add-mappings: false
 
   ${symbol_pound}设置最大上传限制
   servlet:
@@ -21,6 +18,10 @@ spring:
   ${symbol_pound}@profileActive@表示该属性值会在maven构建时被替换掉。
   profiles:
     active: @profileActive@
+  ${symbol_pound}不要为我们工程中的资源文件建立映射
+  web:
+    resources:
+      add-mappings: false
 
 ${symbol_pound} Server
 server:
