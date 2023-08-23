@@ -12,6 +12,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -66,6 +67,23 @@ public class JSONUtils {
     }
   }
 
+  /**
+   * 字符串转对象
+   *
+   * @param json
+   * @param typeReference
+   * @param <T>
+   * @return
+   */
+  public static <T> T parseObject(String json, TypeReference<T> typeReference) {
+    try {
+      return mapper.readValue(json, typeReference);
+    } catch (Exception e) {
+      LOGGER.error(">> parseObject failed ", e);
+      throw new RuntimeException(e);
+    }
+  }
+
 
   /**
    * 字符串转ObjectNode (ObjectNode类似 fastjson 的 JSONObject)
@@ -92,7 +110,6 @@ public class JSONUtils {
    * @param clazz
    * @param <T>
    * @return
-   * @throws IOException
    */
   public static <T> List<T> parseArray(String json, Class<T> clazz) {
     try {
@@ -100,6 +117,25 @@ public class JSONUtils {
       // return  mapper.readValue(json,new TypeReference<List<T>>(){});
       JavaType javaType = mapper.getTypeFactory().constructParametricType(List.class, clazz);
       return mapper.readValue(json, javaType);
+    } catch (Exception e) {
+      LOGGER.error(">> parseArray failed ", e);
+      throw new RuntimeException(e);
+    }
+  }
+
+  /**
+   * 字符串转对象列表
+   *
+   * @param json
+   * @param typeReference
+   * @param <T>
+   * @return
+   */
+  public static <T> List<T> parseArray(String json, TypeReference<T> typeReference) {
+    try {
+      // 注意这里之前有个bug
+      // return  mapper.readValue(json,new TypeReference<List<T>>(){});
+      return Collections.singletonList(mapper.readValue(json, typeReference));
     } catch (Exception e) {
       LOGGER.error(">> parseArray failed ", e);
       throw new RuntimeException(e);

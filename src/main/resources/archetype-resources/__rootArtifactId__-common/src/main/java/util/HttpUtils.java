@@ -24,12 +24,11 @@ public class HttpUtils {
    * 创建http的get请求参数
    *
    * @param param 包含请求参数的map
-   * @return
    */
   public static String buildGetParamStr(Map<String, Object> param) {
-    StringBuffer buffer = new StringBuffer();
+    StringBuilder buffer = new StringBuilder();
     buffer.append("?");
-    if (param == null || param.size() == 0) {
+    if (param == null || param.isEmpty()) {
       return "";
     }
     for (Map.Entry<String, Object> entry : param.entrySet()) {
@@ -40,7 +39,7 @@ public class HttpUtils {
       }
     }
     if ("&".equals(buffer.charAt(buffer.length() - 1) + "")) {
-      buffer = new StringBuffer(buffer.toString().substring(0, buffer.length() - 1));
+      buffer = new StringBuilder(buffer.substring(0, buffer.length() - 1));
     }
     return buffer.toString();
   }
@@ -62,10 +61,9 @@ public class HttpUtils {
    *
    * @param urlStr  请求地址
    * @param headers 请求头
-   * @return
    */
   public static String httpGet(String urlStr, Map<String, String> headers) {
-    if (urlStr == null || "".equals(urlStr.trim())) {
+    if (urlStr == null || urlStr.trim().isEmpty()) {
       return null;
     }
     HttpURLConnection conn = null;

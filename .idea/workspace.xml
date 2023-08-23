@@ -6,17 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e0472869-8a94-4643-8edd-2b71dcb89c9d" name="Changes" comment="添加idea配置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/enumhandle/EnumConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/CaptchacodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/CaptchacodeGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/HttpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/JsonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/MultipleItemsUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/PasswordGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/PasswordGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-web/src/main/java/config/WebConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-web/src/main/java/config/WebConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-web/src/main/java/handler/ResponseWrapUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-web/src/main/java/handler/ResponseWrapUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/JSONUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-common/src/main/java/util/JSONUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +29,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2TxVTAykQPXrZ8SWJOkC6GB8gMq" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -171,6 +165,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加idea配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加idea配置" />
+    <MESSAGE value="up" />
+    <option name="LAST_COMMIT_MESSAGE" value="up" />
   </component>
 </project>
